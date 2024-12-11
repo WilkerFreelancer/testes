@@ -1,15 +1,15 @@
 :root {
-  --primary-color: #ff9f30;
+  --primary-color: #779947;
   --secondary-color: #f37a02;
-  --third-color: #ff9e30b2;
+  --third-color: #a3d063;
   --fourth-color: #ffc107;
-  --primary-color-light:#f26e26 ;
-  --primary-color-dark: #f57439;
+  --primary-color-light: #8cb158;
+  --primary-color-dark: #617d3a;
   --secondary-color-light: #fd8e21;
-  --secondary-color-dark: #f7912c;
+  --secondary-color-dark: #cb6602;
   --contrast-color: yellow;
   --text-color: black;
-  --light-color: #ff9f30;
+  --light-color: #eaf0e3;
 }
 
 * {
@@ -127,7 +127,7 @@ iframe {
 
 @media (max-width: 782px) {
   #about {
-    background-image: url("../images/hero-banner-mob.webp") !important;
+    background-image: url("../../pages/home/img/hero-banner-mob.webp") !important;
     background-size: cover !important;
   }
 }
