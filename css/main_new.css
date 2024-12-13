@@ -69,7 +69,10 @@ iframe {
   font-size: 1.6em;
   transform: translateY(10px) !important;
 }
-
+.fs-1,.fs-5 {
+  text-shadow: 0.5px 0.5px 0 black !important;
+  font-family: "Nunito Sans", sans-serif !important;
+}
 .item {
   transition: 0.2s;
 }
