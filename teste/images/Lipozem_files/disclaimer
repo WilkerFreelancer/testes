@@ -1,0 +1,10 @@
+document.getElementById("disclaimer").innerHTML = `
+				<div class="main container" style="z-index: 1000004;width:100%; padding:0;">
+				<div style="box-shadow: rgba(0, 0, 0, 0.298039) 1px 1px 3px; width: 100%; line-height: 15px;overflow: hidden; margin: 0px; background: #000; text-align: center;">
+				<div class="bg-img-disclaimer" style="min-width: 300px; min-height: 80px; width: 20%; float: left; margin-right: 20px; background-image:url(https://www.buygoods.com/images/buygoods_black.png);  background-repeat: no-repeat; background-position-y: 15px; background-position: right; ">
+				</div>
+				<div class="bg-text-disclaimer" style="font-family:verdana;color:#ddd;font-size:11px;padding: 10px 0px; max-width:700px; margin:auto; text-align:justify">
+					BuyGoods is the retailer of this product.
+					BuyGoods is a registered trademark of BuyGoods, a Delaware corporation located at 1201 N Orange Street Suite #7223, Wilmington, DE, 19801, USA and used by permission. 
+					BuyGoods role as retailer does not constitute an endorsement, approval or review of this product or any claim, statement or opinion used in promotion of this product.
+					Statements on this website have not been evaluated by the Food and Drug Administration. Products are not intended to diagnose, treat, cure or prevent any disease.</div></div></div>`;
