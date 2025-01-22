@@ -133,7 +133,7 @@
     position: absolute;
     width: 100%;
     height: 100%;
-    background: radial-gradient(circle, transparent, #00ff00, transparent);
+    background: radial-gradient(circle, transparent, #06c4fd, transparent);
     animation: neon-glow 6s infinite ease-in-out; /* Duração mais longa e transição mais suave */
     filter: blur(30px); /* Menos desfocado para um efeito mais sutil */
     z-index: 1;
@@ -7091,11 +7091,38 @@ html,body{
     padding: 0 !important;
 }
  .destaque, .destaque span {
-    background: var(--Logo-On, linear-gradient(106deg, #FF4D00 -133.57%, #FFC700 122.99%))!important;
-     background-clip: text!important;
-     -webkit-background-clip: text!important;
-     -webkit-text-fill-color: transparent!important;
-     line-height: normal!important;
+    background: linear-gradient(106deg, #FF4D00 -133.57%, #FFEC5C 122.99%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    color: transparent;
+    line-height: normal!important;
+
+    /* Brilho Suave */
+    text-shadow: 
+        0 0 5px rgba(255, 236, 92, 0.6), 
+        0 0 10px rgba(255, 236, 92, 0.4), 
+        0 0 20px rgba(255, 236, 92, 0.3), 
+        0 0 40px rgba(255, 199, 0, 0.2);
+    animation: brilho-texto 2s infinite alternate;
+}
+
+/* Animação */
+@keyframes brilho-texto {
+    0% {
+        text-shadow: 
+            0 0 5px rgba(255, 236, 92, 0.4), 
+            0 0 10px rgba(255, 236, 92, 0.3), 
+            0 0 20px rgba(255, 236, 92, 0.2), 
+            0 0 30px rgba(255, 199, 0, 0.2);
+    }
+    100% {
+        text-shadow: 
+            0 0 10px rgba(255, 236, 92, 0.6), 
+            0 0 20px rgba(255, 236, 92, 0.4), 
+            0 0 40px rgba(255, 199, 0, 0.3), 
+            0 0 60px rgba(255, 236, 92, 0.2);
+    }
 }
  .destaque p{
     background: var(--Logo-On, linear-gradient(106deg, #FF4D00 -133.57%, #FFC700 122.99%));
@@ -7127,7 +7154,7 @@ html,body{
 }
 /* Cor do botão */
  .btn .elementor-button {
-     background: linear-gradient(90deg, #00FF00 0%, #008000 100%);
+     background: linear-gradient(90deg, #0099ff 0%, #00ccff 100%);
      box-shadow: 0px -27px 80px 0px rgba(26, 56, 251, 0.22), 0px -9.855px 29.201px 0px rgba(26, 56, 251, 0.15), 0px -4.785px 14.177px 0px rgba(26, 56, 251, 0.12), 0px -2.346px 6.95px 0px rgba(26, 56, 251, 0.10), 0px -0.927px 2.748px 0px rgba(26, 56, 251, 0.07);
      overflow: hidden;
      transform: translate(0%, 0%);
