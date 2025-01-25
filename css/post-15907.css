@@ -6898,7 +6898,10 @@ body.elementor-page-15907:not(.elementor-motion-effects-element-type-background)
      top:0;
      left:0;
      width:100%;
+}body {
+    overflow-x: hidden;
 }
+
 /* End custom CSS */
 /* Start custom CSS for image, class: .elementor-element-6908f7c */
 .elementor-15907 .elementor-element.elementor-element-6908f7c{
