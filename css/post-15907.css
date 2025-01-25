@@ -7106,6 +7106,12 @@ html,body{
         0 0 40px rgba(255, 199, 0, 0.2);
     animation: brilho-texto 2s infinite alternate;
 }
+img.wp-image-14401,
+img.wp-image-14432,
+img.wp-image-14423  {
+    filter: hue-rotate(120deg) saturate(3.5); /* Ajustado para ciano */
+
+}
 
 /* Animação */
 @keyframes brilho-texto {
