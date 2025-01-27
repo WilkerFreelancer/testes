@@ -7479,3 +7479,18 @@ img.wp-image-14423  {
      src: url('../fonts/SFProDisplay-Heavy.eot#iefix') format('embedded-opentype'), url('../fonts/SFProDisplay-Heavy.woff2') format('woff2'), url('../fonts/SFProDisplay-Heavy.woff') format('woff'), url('../fonts/SFProDisplay-Heavy.ttf') format('truetype'), url('../images/SFProDisplay-Heavy.svg#SFProDisplay') format('svg');
 }
 /* End Custom Fonts CSS */
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden; /* Bloqueia o scroll horizontal */
+}
+
+
+
+/* Permitir movimento lateral apenas no elemento com as classes específicas */
+.elementor-element.elementor-element-39d537c.e-flex.e-con-boxed.e-con.e-parent.e-lazyloaded {
+    overflow-x: auto !important; /* Permite o scroll horizontal nesse elemento */
+    white-space: nowrap; /* Garante que o conteúdo se estenda horizontalmente */
+}
