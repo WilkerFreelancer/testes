@@ -3509,13 +3509,17 @@ body.rtl .elementor-15907 .elementor-element.elementor-element-01d0cc1{
     text-align:left;
 }
 .elementor-15907 .elementor-element.elementor-element-c5ddb54 .elementor-image-box-title{
-    color:#D1D2EA;
+    color: #000 !important;
+    
     font-family:"MADEOuterSans", Sans-serif;
     font-size:32px;
     font-weight:500;
 }
 .elementor-15907 .elementor-element.elementor-element-c5ddb54 .elementor-image-box-description{
-    color:#7A7A7A;
+
+color: #000 !important;
+
+    
     font-family:"MADEOuterSans", Sans-serif;
     font-size:16px;
     font-weight:400;
